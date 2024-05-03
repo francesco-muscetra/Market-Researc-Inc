@@ -1,0 +1,2 @@
+1. Inserire la cartella "Market Research" nella cartella htdocs
+2. Importare il database "indaginemercato" chiamandolo "indaginemercato"

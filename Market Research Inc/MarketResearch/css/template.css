@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10;
+}
+
+.container {
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #0b315a;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(http://localhost/PCTO%20inf/img/header.jpg);
+
+}
+
+.navbar img {
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: url(http://localhost/PCTO%20inf/img/header.jpg);
+}
+
+.navbar .logo-container {
+    flex-grow: 0;
+    display: flex;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    padding-left: 100px;
+    flex-grow: 1;
+    font-size: 25px;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+h1{
+    font-family: "open_sansbold",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #064685;
+    text-align: center;
+}
+
+.site-footer {
+    background-color: #09315c;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+    bottom: 0;
+    left: 0;
+}
+
+.site-footer p {
+    margin: 10px 0;
+}
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}

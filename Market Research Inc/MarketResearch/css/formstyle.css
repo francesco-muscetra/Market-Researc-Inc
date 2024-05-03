@@ -1,0 +1,82 @@
+.login-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 7px;
+    margin: 0px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #113458;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+select {
+    width: 100%; /* Assicura che il select occupi tutto lo spazio disponibile */
+    padding: 8px 10px; /* Aggiungi un po' di spazio interno per un migliore comfort visivo */
+    border-radius: 5px; /* Bordi arrotondati */
+    border: 1px solid #ccc; /* Bordi leggermente evidenziati */
+    background-color: white; /* Sfondo bianco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di elevazione */
+    appearance: none; /* Rimuove lo stile di default del browser */
+    cursor: pointer; /* Cambia il cursore in una mano per indicare che è cliccabile */
+}
+
+/* Stilizzazione per quando il select è in hover */
+select:hover {
+    border-color: #007bff; /* Cambia il colore del bordo al passaggio del mouse */
+}
+
+/* Stilizzazione per il focus */
+select:focus {
+    border-color: #0056b3; /* Cambia il colore del bordo quando il select è focalizzato */
+    outline: none; /* Rimuove l'outline di default quando è selezionato */
+}
+
+/* Pseudo-elemento per creare un'icona custom per la freccia del dropdown */
+select {
+    position: relative;
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+                      linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) center, calc(100% - 15px) center;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+}
+
+/* Aumenta il padding a destra per far spazio all'icona della freccia */
+select {
+    padding-right: 30px; /* Spazio aggiunto per non sovrapporre il testo all'icona */
+}

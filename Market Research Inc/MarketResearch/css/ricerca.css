@@ -1,0 +1,33 @@
+.griglia-bottoni{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.bottone{
+    float: left;
+    border-width: 1px;
+    border-color: black;
+    border-style: groove;
+    padding: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bottone img{
+    width: 200px;
+    text-align: center;
+    padding: 5%;
+}
+
+.bottone h2{
+    font-family: "open_sansbold",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
+    color: #064685;
+    margin-bottom: 0;
+    line-height: 18px;
+    padding-top: 10px;
+    text-align: center;
+}

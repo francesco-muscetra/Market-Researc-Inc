@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/formstyle.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo Market Research Inc.">
+        </div>
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registrazione.html">Registrati</a></li>
+            <li><a href="ricerca.php">Cerca</a></li>
+        </ul>
+    </div>
+
+    <div class="login-container">
+        <form action="login.php" method="post">
+            <h2>Accedi</h2>
+            <div class="input-group">
+                <label for="username">Nome Utente</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Accedi</button>
+            <p>Non hai un account? <a href="registrazione.html">Registrati</a></p>
+        </form>
+    </div>
+    <footer class="site-footer">
+        <p>Francesco Mauramati | Francesco Muscetra | Francesco Macrì | Paolo Rainò</p>
+        <p>IIS A. Meucci - Casarano</p>
+        <p>Anno Scolastico 2023/2024</p>
+    </footer>
+    
+</body>
+</html>
